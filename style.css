@@ -1,0 +1,91 @@
+body {
+    background-color: #448D76;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 0px;
+}
+
+#result, #game, #round, #score, #score-reason {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 35px;
+    margin: 0;
+}
+
+#result {
+    font-size: 50px;
+    color: red;
+}
+
+#round {
+    font-size: 60px;
+    padding: 10px;
+    color: #093527;
+    letter-spacing: 3px;
+}
+
+#game {
+    font-size: 50px;
+    color: #FCAD52;
+    letter-spacing: 5px;
+    background-color: #0C2044;
+}
+
+h1,
+h2 {
+    color: #093426;
+    text-align: center;
+}
+
+h1 {
+    letter-spacing: 2px;
+    font-size: 70px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+h2 {
+    padding-top: 2px;
+    letter-spacing: 5px;
+    font-size: 55px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#game-end {
+    text-align: center;
+    padding: 25px 0px 25px 0px;
+}
+
+button {
+    font-size: 20px;
+    color: #458F77;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #F8E0D8;
+    border-radius: 8px;
+    padding: 8px 32px 8px 32px;
+    text-align: center;
+}
+
+input {
+    cursor: pointer;
+    color: #093427; 
+    background-color: #F8E0D8;
+    border-radius: 8px;
+    padding: 5px 25px 5px 25px;
+}
+
+.fa-hand-rock,
+.fa-paper-plane,
+.fa-cut {
+    cursor: pointer;
+    font-size: 130px;
+    text-align: center;
+    color: #0C2044;
+    padding: 18px 20px 18px 20px;
+}
+
+.playerSelection {
+    text-align: center;
+    padding-top: 40px;
+}
